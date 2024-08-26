@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Post</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="post-container">
+        <div class="post-header">
+            <div class="user-info">
+                <img src="data:image/png;base64,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" alt="HTML5 Logo" class="user-avatar">
+                <div>
+                    <p class="username">HTML5</p>
+                    <p class="user-handle">Rigoberto</p>
+                </div>
+            </div>
+            <div class="more-options">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </div>
+        <div class="post-image">
+            <img src="https://cdn.ferrari.com/cms/network/media/img/resize/61b9c5b19f337e026e0bcf4c-ferrari-sport-tour-2022-tuscany-cover-desk?width=1440&height=900" alt="Post Image">
+        </div>
+        <div class="post-interaction">
+            <div class="icons">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>
+            </div>
+            <i class="far fa-bookmark"></i>
+        </div>
+        <div class="post-likes">
+            <p>Liked by <strong>4GeeksAcademy, html5, Web</strong> and <strong>100,000 others</strong></p>
+        </div>
+        <div class="post-caption">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...</p>
+        </div>
+    </div>
+</body>
+</html>
